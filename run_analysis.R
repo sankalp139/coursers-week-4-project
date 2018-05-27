@@ -1,6 +1,6 @@
 setwd('C:/Users/sankalp/Documents/Coursera/Getting & Cleaning Data/Week 4/project/UCI HAR Dataset');
 
-eatures <- read.table('./features.txt',header=FALSE);
+features <- read.table('./features.txt',header=FALSE);
 activityLabels <- read.table('./activity_labels.txt',header=FALSE); 
 colnames(activityLabels) <- c("activityId","activityType");
 subjectTrain <- read.table('./train/subject_train.txt',header=FALSE); 
